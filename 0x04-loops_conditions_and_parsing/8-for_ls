@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#a bash script that displays content of current directory
+
+for item in *; do
+  if [[ -f "$item" || -d "$item" ]]; then
+    if [[ "$item" == *-* ]]; then
+      echo "${item#*-}"
+    else
+      echo "$item"
+    fi
+  fi
+done
+
+exit 0
