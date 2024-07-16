@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+#prints the scripts PID
+
 echo "$$"
