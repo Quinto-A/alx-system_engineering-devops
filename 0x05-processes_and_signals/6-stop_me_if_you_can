@@ -2,6 +2,3 @@
 # script that stops a process without using kill
 
 pkill -f "4-to_infinity_and_beyond"
-
-if [[ $? -eq 0 ]]; then
-fi
