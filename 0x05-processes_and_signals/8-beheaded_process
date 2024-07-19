@@ -2,3 +2,9 @@
 # script that stops a process without using kill
 
 pkill -f "7-highlander"
+
+if [[ $? -eq 0 ]]; then
+	echo "script terminated"
+else
+	echo "could not be terminated"
+fi
