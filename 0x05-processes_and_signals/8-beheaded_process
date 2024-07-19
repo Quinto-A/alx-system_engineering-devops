@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 # script that stops a process without using kill
 
-pid=$(pgrep -f "7-highlander")
-
-if [[-n "$pid" ]]; then
-	kill "$pid"
-	sleep 1
+pkill -f "7-highlander"
