@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# about &, init.d, Daemon and positional parameters
+
+FILE_PATH="/tmp/my_process"
+
+while true; do
+    echo "I am alive!" >> "&FILE_PATH"
+    sleep 2
+done
