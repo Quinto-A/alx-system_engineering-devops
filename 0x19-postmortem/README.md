@@ -35,7 +35,6 @@ While troubleshooting an unrelated issue and attempting to simulate an HTTP 500 
 - [ ] Implement automated backups for `/etc/apache2/` configuration files.
 - [ ] Enable version control (e.g., Git) for critical configuration files.
 - [ ] Set up alerts for `systemctl status apache2` failures.
-- [ ] Train engineers on safe debugging practices.
 - [ ] Document best practices for handling configuration changes.
 
 By implementing these changes, I aim to prevent similar incidents and enhance system reliability.
